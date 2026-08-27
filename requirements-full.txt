@@ -1,0 +1,4 @@
+-r requirements.txt
+tensorflow==2.21.0
+keras==3.14.1
+tensorflow-probability==0.25.0

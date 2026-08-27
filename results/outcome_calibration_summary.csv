@@ -1,0 +1,13 @@
+calibration_version,summary_level,backend,quantile,n_observations,predictive_mean_bias,rmse_predictive_mean,interval_50_coverage,interval_80_coverage,interval_90_coverage,mean_predictive_sd,mean_predictive_iqr,mean_crps,empirical_quantile_coverage,coverage_error,mean_pinball_loss
+in_sample_residual,backend,gbdt,,4000,-0.0006483494239941,0.0316896103921949,0.14375,0.249,0.2915,0.0073853578365825,0.0102666543777182,0.0205159627962607,,,
+in_sample_residual,quantile,gbdt,0.1,4000,,,,,,,,,0.3805,0.2804999999999999,0.008839362167385
+in_sample_residual,quantile,gbdt,0.25,4000,,,,,,,,,0.43775,0.1877499999999999,0.0106717225598564
+in_sample_residual,quantile,gbdt,0.5,4000,,,,,,,,,0.50575,0.00575,0.0117894193816963
+in_sample_residual,quantile,gbdt,0.75,4000,,,,,,,,,0.5815,-0.1684999999999999,0.0108269469713764
+in_sample_residual,quantile,gbdt,0.9,4000,,,,,,,,,0.6295,-0.2705000000000001,0.0091121594382247
+oof_residual,backend,gbdt,,4000,-0.0006124063703038,0.0317672121313918,0.5775,0.67475,0.7185,0.0295705689788591,0.0493017201126928,0.0178668999614682,,,
+oof_residual,quantile,gbdt,0.1,4000,,,,,,,,,0.173,0.0729999999999999,0.0056409221917199
+oof_residual,quantile,gbdt,0.25,4000,,,,,,,,,0.22975,-0.0202499999999999,0.0096937580294502
+oof_residual,quantile,gbdt,0.5,4000,,,,,,,,,0.5025,0.0024999999999999,0.0124848217071872
+oof_residual,quantile,gbdt,0.75,4000,,,,,,,,,0.80725,0.05725,0.0099270540320691
+oof_residual,quantile,gbdt,0.9,4000,,,,,,,,,0.84775,-0.05225,0.0058654622621546
